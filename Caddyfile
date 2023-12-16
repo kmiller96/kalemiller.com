@@ -1,0 +1,8 @@
+kalemiller.com {
+    redir https://blog.{host}{uri}
+}
+
+blog.kalemiller.com {
+    root * /var/blog
+    file_server
+}
